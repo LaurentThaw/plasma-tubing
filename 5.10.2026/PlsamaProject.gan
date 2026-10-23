@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="Plasma Project " company="" webLink="http://" view-date="2026-08-30" view-index="0" gantt-divider-location="351" resource-divider-location="300" version="3.3.3322" locale="en_US">
+    <description/>
+    <view zooming-state="default:6" id="gantt-chart">
+        <field id="tpd3" name="Name" width="191" order="0"/>
+        <field id="tpd4" name="Begin date" width="72" order="1"/>
+        <field id="tpd5" name="End date" width="72" order="2"/>
+        <field id="tpd15" name="Notes" width="20" order="3"/>
+        <option id="filter.completedTasks" value="false"/>
+        <option id="filter.dueTodayTasks" value="false"/>
+        <option id="filter.overdueTasks" value="false"/>
+        <option id="filter.inProgressTodayTasks" value="false"/>
+        <option id="color.recent"><![CDATA[#ffff00 #f4f4f4 #02ff00 #000000 #ff0000 #3333ff #cc0099 #999999 #ffcc00 #cc00cc]]></option>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Name" width="210" order="0"/>
+        <field id="1" name="Default role" width="86" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="0" uid="ff73ab22730f4f8a91bdbcf7a9369f5e" name="Audit" color="#ff0000" meeting="true" start="2026-10-06" duration="0" complete="0" expand="true"/>
+        <task id="26" uid="94b82a4177374d23b6be31d3c6d4f519" name="Technical report preparation" color="#ffff00" meeting="false" start="2026-10-01" duration="5" complete="0" expand="true"/>
+        <task id="24" uid="bfe1e97bbaeb4a2b94a51705bde1d7c5" name="Read document" color="#ffff00" meeting="false" start="2026-09-16" duration="4" complete="100" expand="true">
+            <depend id="35" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="35" uid="f1d4feea7b484c9482c7d2040399aea7" name="Case Study Presentation" color="#ffff00" meeting="false" start="2026-09-22" duration="1" complete="100" expand="true">
+            <depend id="4" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="27" uid="0e3118d65d764c9fbf6cab1f40593a8a" name="Deadline of ordering" color="#3333ff" meeting="true" start="2026-11-02" duration="0" complete="0" expand="true"/>
+        <task id="2" uid="52673247380e4dc295e1b8cdb3e9737c" name="CDR" color="#ff0000" meeting="true" start="2027-01-08" duration="0" complete="0" expand="true"/>
+        <task id="1" uid="d24347f72fe34b8bbb343e98f83d1982" name="PDR" color="#ff0000" meeting="true" start="2026-11-20" duration="0" complete="0" expand="true"/>
+        <task id="3" uid="cbbed18c4b7f4117a67597da01449166" name="Meeting Assiocate Professor (Tutor)" color="#02ff00" meeting="false" project="true" start="2026-09-16" duration="17" complete="75" expand="false">
+            <task id="28" uid="1e67bbf1061449e38141bc77d8af683d" name="Meeting1" color="#02ff00" meeting="false" start="2026-09-16" duration="1" complete="100" expand="true"/>
+            <task id="31" uid="f4fb08a1f5094cdaacdce8a9b0152b47" name="Meeting4" color="#02ff00" meeting="false" start="2026-10-08" duration="1" complete="0" expand="true"/>
+            <task id="30" uid="69ed682585e24f43bc60a406c45c9e8d" name="Meeting3" color="#02ff00" meeting="false" start="2026-09-28" duration="1" complete="100" expand="true"/>
+            <task id="5" uid="45fbe527a434436e9ae087b8ceac04db" name="Meeting2" color="#02ff00" meeting="false" start="2026-09-22" duration="1" complete="100" expand="true"/>
+        </task>
+        <task id="6" uid="e8c87f080f0b41809bd214840bc92eb0" name="Modelisation of the mask" color="#ff0000" meeting="false" start="2026-09-28" duration="28" complete="0" thirdDate="2026-09-28" thirdDate-constraint="1" priority="4" expand="false">
+            <task id="19" uid="c26dbf4a20464edb90dd75f54fba10a9" name="Modelling on LayoutEditor" color="#ff0000" meeting="false" start="2026-09-28" duration="13" complete="0" expand="true">
+                <depend id="7" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="7" uid="8122d6cfec6942e88dad7b837654a87f" name="Order mask" color="#ff0000" meeting="false" start="2026-10-15" duration="15" complete="0" expand="true"/>
+            <task id="20" uid="40b6accd4f354c5191dd0eec041a24cf" name="Creation of the ship" meeting="false" start="2026-08-24" duration="1" complete="0" expand="true"/>
+        </task>
+        <task id="25" uid="4d065751f3b44a92990e05437c5516c2" name="State of the art (3 files)" color="#ffff00" meeting="false" start="2026-09-28" duration="6" complete="100" expand="true"/>
+        <task id="8" uid="0de2bd4465374d35b10df7852e4d64bb" name="Experiment with CCD (to familiar with setup)" color="#ffff00" meeting="false" start="2026-10-08" duration="47" complete="0" priority="4" expand="true">
+            <task id="33" uid="8feecd6fbe6148c4b1bcfac5a701c644" name="Interpretation of results" color="#ffff00" meeting="false" start="2026-11-30" duration="10" complete="0" thirdDate="2026-11-27" thirdDate-constraint="1" expand="true"/>
+            <task id="9" uid="18295b6ad30f418fadd4f877e8d80633" name="Measure CCD Camera (parameter)" color="#ffff00" meeting="false" start="2026-10-08" duration="13" complete="0" expand="true">
+                <depend id="33" type="2" difference="0" hardness="Strong"/>
+            </task>
+        </task>
+        <task id="10" uid="6f88f77c28d24979ac0927f1a45f6414" name="Experiment with ICCD camera" color="#ffff00" meeting="false" start="2026-11-10" duration="24" complete="0" expand="true">
+            <task id="12" uid="34a2249a37744c1f9819d537f2012b24" name="Interpretation of results (ICCD)" color="#ffff00" meeting="false" start="2026-11-30" duration="10" complete="0" expand="true"/>
+            <task id="34" uid="5c45b8c1edfe446c8bd115102f064fdc" name="Measure ICCD Camera (parameter)" color="#ffff00" meeting="false" start="2026-11-10" duration="14" complete="0" expand="true">
+                <depend id="33" type="2" difference="0" hardness="Strong"/>
+            </task>
+        </task>
+        <task id="4" uid="dbb9dbc55265400e98a425439bdc53f0" name="Use case, Function Analysis" color="#ffff00" meeting="false" start="2026-09-23" duration="9" complete="100" thirdDate="2026-08-24" thirdDate-constraint="1" expand="true">
+            <task id="15" uid="604483dca70d498eaebd2cdff19a3ce4" name="Risk analysis" color="#ffff00" meeting="false" start="2026-09-28" duration="4" complete="100" expand="true"/>
+            <task id="18" uid="b4ad2fe56b024a7b890559d30983c73e" name="Summary of my project for audit" color="#ffff00" meeting="false" start="2026-09-28" duration="4" complete="100" expand="true"/>
+            <task id="21" uid="4839a00541c94659991bccc466930738" name="Gantt update" color="#ffff00" meeting="false" start="2026-09-28" duration="6" complete="100" expand="true"/>
+            <task id="22" uid="23a04e729b23464ab0efdf13f64cda7e" name="Functional Analysis" color="#ffff00" meeting="false" start="2026-09-23" duration="5" complete="100" expand="true"/>
+        </task>
+    </tasks>
+    <resources/>
+    <allocations/>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+</project>
