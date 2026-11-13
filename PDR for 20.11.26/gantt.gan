@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><project name="Plasma Project " company="" webLink="http://" view-date="2026-09-06" view-index="0" gantt-divider-location="336" resource-divider-location="300" version="3.3.3322" locale="en_US">
+<?xml version="1.0" encoding="UTF-8"?><project name="Plasma Project " company="" webLink="http://" view-date="2026-09-01" view-index="0" gantt-divider-location="321" resource-divider-location="300" version="3.3.3322" locale="en_US">
     <description/>
-    <view zooming-state="default:6" id="gantt-chart">
+    <view zooming-state="default:8" id="gantt-chart">
         <field id="tpd3" name="Name" width="182" order="0"/>
         <field id="tpd4" name="Begin date" width="69" order="1"/>
         <field id="tpd5" name="End date" width="69" order="2"/>
@@ -48,14 +48,14 @@
         <task id="35" uid="f1d4feea7b484c9482c7d2040399aea7" name="Case Study Presentation" color="#ffff00" meeting="false" start="2026-09-22" duration="1" complete="100" expand="true">
             <depend id="4" type="2" difference="0" hardness="Strong"/>
         </task>
-        <task id="27" uid="0e3118d65d764c9fbf6cab1f40593a8a" name="Deadline of ordering" color="#3333ff" meeting="true" start="2026-11-13" duration="0" complete="0" expand="true"/>
+        <task id="27" uid="0e3118d65d764c9fbf6cab1f40593a8a" name="Deadline of ordering" color="#3333ff" meeting="true" start="2026-11-17" duration="0" complete="0" expand="true"/>
         <task id="1" uid="d24347f72fe34b8bbb343e98f83d1982" name="PDR" color="#ff0000" meeting="true" start="2026-11-20" duration="0" complete="0" expand="true"/>
         <task id="43" uid="0f464004ff2346e387b49f7c800232de" name="Test new ships" color="#00ffcc" meeting="false" start="2026-12-09" duration="30" complete="0" expand="false">
             <task id="45" uid="fb774fb6a8404476a7aba0103d3ad164" name="Test and measure" color="#00ffcc" meeting="false" start="2026-12-09" duration="30" complete="0" expand="true"/>
             <task id="44" uid="c5acd4130eaa488b93ae24c03c1e2588" name="Interpretation of results" color="#00ffcc" meeting="false" start="2026-12-09" duration="30" complete="0" expand="true"/>
         </task>
-        <task id="3" uid="cbbed18c4b7f4117a67597da01449166" name="Meeting Assiocate Professor (Tutor)" color="#02ff00" meeting="false" project="true" start="2026-09-16" duration="42" complete="85" expand="false">
-            <task id="38" uid="6a8e1eb663a94350a4ef07235a46ae5c" name="Meeting7" color="#02ff00" meeting="false" start="2026-11-12" duration="1" complete="0" expand="true"/>
+        <task id="3" uid="cbbed18c4b7f4117a67597da01449166" name="Meeting Assiocate Professor (Tutor)" color="#02ff00" meeting="false" project="true" start="2026-09-16" duration="42" complete="100" expand="false">
+            <task id="38" uid="6a8e1eb663a94350a4ef07235a46ae5c" name="Meeting7" color="#02ff00" meeting="false" start="2026-11-12" duration="1" complete="100" expand="true"/>
             <task id="37" uid="4c2d4b0be6644b1ca0a012d19efc764c" name="Meeting6" color="#02ff00" meeting="false" start="2026-11-05" duration="1" complete="100" expand="true"/>
             <task id="36" uid="b963e5567b33496d934fd74724312c15" name="Meeting5" color="#02ff00" meeting="false" start="2026-10-21" duration="1" complete="100" expand="true"/>
             <task id="28" uid="1e67bbf1061449e38141bc77d8af683d" name="Meeting1" color="#02ff00" meeting="false" start="2026-09-16" duration="1" complete="100" expand="true"/>
@@ -63,18 +63,17 @@
             <task id="30" uid="69ed682585e24f43bc60a406c45c9e8d" name="Meeting3" color="#02ff00" meeting="false" start="2026-09-28" duration="1" complete="100" expand="true"/>
             <task id="5" uid="45fbe527a434436e9ae087b8ceac04db" name="Meeting2" color="#02ff00" meeting="false" start="2026-09-22" duration="1" complete="100" expand="true"/>
         </task>
-        <task id="6" uid="e8c87f080f0b41809bd214840bc92eb0" name="Modelisation of the mask" color="#ff0000" meeting="false" start="2026-10-06" duration="50" complete="63" thirdDate="2026-09-28" thirdDate-constraint="1" priority="4" expand="false">
+        <task id="6" uid="e8c87f080f0b41809bd214840bc92eb0" name="Modelisation of the mask" color="#ff0000" meeting="false" start="2026-10-06" duration="50" complete="67" thirdDate="2026-09-28" thirdDate-constraint="1" priority="4" expand="false">
             <depend id="48" type="2" difference="0" hardness="Strong"/>
-            <task id="19" uid="c26dbf4a20464edb90dd75f54fba10a9" name="Modelling on LayoutEditor" color="#ff0000" meeting="false" start="2026-10-06" duration="35" complete="90" expand="true">
+            <task id="19" uid="c26dbf4a20464edb90dd75f54fba10a9" name="Modelling on LayoutEditor" color="#ff0000" meeting="false" start="2026-10-06" duration="35" complete="97" expand="true">
                 <depend id="7" type="2" difference="0" hardness="Strong"/>
             </task>
             <task id="7" uid="8122d6cfec6942e88dad7b837654a87f" name="Order mask" color="#ff0000" meeting="false" start="2026-11-24" duration="15" complete="0" expand="true"/>
         </task>
-        <task id="48" uid="8dc9d5cebd5c475cba706a795705be6d" name="Experimental chips process" color="#ff6600" meeting="false" start="2026-12-15" duration="15" complete="0" priority="2" expand="true"/>
-        <task id="25" uid="4d065751f3b44a92990e05437c5516c2" name="State of the art (3 files)" color="#ffff00" meeting="false" start="2026-09-28" duration="6" complete="100" expand="true"/>
-        <task id="8" uid="0de2bd4465374d35b10df7852e4d64bb" name="Experiment with CCD (to familiar with setup)" color="#cc0099" meeting="false" start="2026-10-08" duration="38" complete="60" priority="4" expand="false">
-            <task id="39" uid="cebccac65f0446288489018a204a4bf3" name="Interpretation of results" color="#cc0099" meeting="false" start="2026-10-08" duration="38" complete="50" expand="true"/>
-            <task id="9" uid="18295b6ad30f418fadd4f877e8d80633" name="Measure CCD Camera (parameter)" color="#cc0099" meeting="false" start="2026-10-08" duration="38" complete="70" expand="true"/>
+        <task id="48" uid="8dc9d5cebd5c475cba706a795705be6d" name="Experimental chips process" color="#ff6600" meeting="false" start="2026-12-15" duration="38" complete="60" priority="2" expand="true"/>
+        <task id="8" uid="0de2bd4465374d35b10df7852e4d64bb" name="Experiment with CCD (to familiar with setup)" color="#cc0099" meeting="false" start="2026-10-27" duration="48" complete="60" priority="4" expand="false">
+            <task id="39" uid="cebccac65f0446288489018a204a4bf3" name="Interpretation of results" color="#cc0099" meeting="false" start="2026-10-27" duration="48" complete="50" expand="true"/>
+            <task id="9" uid="18295b6ad30f418fadd4f877e8d80633" name="Measure CCD Camera (parameter)" color="#cc0099" meeting="false" start="2026-10-27" duration="48" complete="70" expand="true"/>
         </task>
         <task id="42" uid="dd21189e25484070a4da553707d658f3" name="Straigh chips process" color="#999999" meeting="false" start="2026-11-11" duration="20" complete="0" expand="false">
             <depend id="43" type="2" difference="0" hardness="Strong"/>
